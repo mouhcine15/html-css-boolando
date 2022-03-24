@@ -1,0 +1,32 @@
+
+.prodotto {
+    display:inline-block;
+    position:relative
+}
+.foto { 
+    width: 320px;
+    height: 462px;
+}
+.cuore {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 4px;
+}
+.sconto {
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    padding: 4px;
+}
+.sostenibile {
+    background-color: green;
+    color: white;
+    padding: 4px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+}
