@@ -1,7 +1,11 @@
-
+main {
+    width: 1000px;
+    margin: auto;
+}
 .prodotto {
+    background-color: white;
     display:inline-block;
-    position:relative
+    position:relative;
 }
 .foto { 
     width: 320px;
@@ -19,7 +23,7 @@
     color: white;
     position: absolute;
     left: 0;
-    bottom: 20px;
+    bottom: 70px;
     padding: 4px;
 }
 .sostenibile {
@@ -28,5 +32,19 @@
     padding: 4px;
     position: absolute;
     left: 50px;
-    bottom: 20px;
+    bottom: 70px;
+}
+.marca {
+    font-size: 14px;
+}
+.descrizione {
+
+}
+.prezzo {
+    color: red;
+    display: inline-block;
+}
+.prezzo-iniziale {
+    text-decoration: line-through;
+    display: inline-block;
 }
