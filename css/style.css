@@ -2,6 +2,9 @@ main {
     width: 1000px;
     margin: auto;
 }
+.row {
+    display: inline-block;
+}
 .prodotto {
     background-color: white;
     display:inline-block;
@@ -32,6 +35,11 @@ main {
     padding: 4px;
     position: absolute;
     left: 50px;
+    bottom: 70px;
+}
+.sostenibile.no-sconto {
+    position: absolute;
+    left: 0px;
     bottom: 70px;
 }
 .marca {
