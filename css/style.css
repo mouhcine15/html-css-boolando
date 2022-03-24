@@ -1,9 +1,13 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 main {
     width: 1000px;
     margin: auto;
 }
 .row {
     display: inline-block;
+    margin-top: 50px;
 }
 .prodotto {
     background-color: white;
@@ -14,12 +18,27 @@ main {
     width: 320px;
     height: 462px;
 }
+.fotoseconda {
+    width: 320px;
+    height: 462px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500;
+}
+.prodotto:hover .fotoseconda {
+    display: inline;
+    object-fit: contain;
+}
 .cuore {
     position: absolute;
     top: 10px;
     right: 0;
     background-color: white;
     padding: 4px;
+    transform: scale(1.5);
+    z-index: 501;
 }
 .sconto {
     background-color: red;
@@ -28,6 +47,7 @@ main {
     left: 0;
     bottom: 70px;
     padding: 4px;
+    z-index: 501;
 }
 .sostenibile {
     background-color: green;
@@ -36,6 +56,7 @@ main {
     position: absolute;
     left: 50px;
     bottom: 70px;
+    z-index: 501;
 }
 .sostenibile.no-sconto {
     position: absolute;
